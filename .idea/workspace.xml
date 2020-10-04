@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa3b9095-4a51-4b68-9252-519ce014b1e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/middlewares/multer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/postController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/postController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validations/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/validations/validators.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601837912221</updated>
       <workItem from="1601837914504" duration="60000" />
-      <workItem from="1601838195469" duration="12509000" />
+      <workItem from="1601838195469" duration="14307000" />
     </task>
     <task id="LOCAL-00001" summary="init project and install dependency">
       <created>1601838658525</created>
@@ -101,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601847344759</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="store post and multer">
+      <created>1601853327076</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601853327076</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,32 +117,39 @@
     <MESSAGE value="integrate error handling" />
     <MESSAGE value="implement validationHandler.js" />
     <MESSAGE value="creating the post model" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating the post model" />
+    <MESSAGE value="store post and multer" />
+    <option name="LAST_COMMIT_MESSAGE" value="store post and multer" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="23" key="CommitChangelistDialog2" timestamp="1601847344489">
-      <screen x="0" y="23" width="1280" height="728" />
+    <state x="440" y="23" key="CommitChangelistDialog2" timestamp="1601853326880">
+      <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state x="440" y="23" key="CommitChangelistDialog2/0.23.1280.728@0.23.1280.728" timestamp="1601847344488" />
-    <state width="1239" height="168" key="GridCell.Tab.0.bottom" timestamp="1601853055720">
-      <screen x="0" y="23" width="1280" height="728" />
+    <state x="440" y="23" key="CommitChangelistDialog2/0.23.1280.729@0.23.1280.729" timestamp="1601853326880" />
+    <state width="1239" height="168" key="GridCell.Tab.0.bottom" timestamp="1601854728649">
+      <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1601853055720" />
-    <state width="1239" height="168" key="GridCell.Tab.0.center" timestamp="1601853055719">
-      <screen x="0" y="23" width="1280" height="728" />
+    <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1601854728649" />
+    <state width="1239" height="168" key="GridCell.Tab.0.center" timestamp="1601854728648">
+      <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1601853055719" />
-    <state width="1239" height="168" key="GridCell.Tab.0.left" timestamp="1601853055718">
-      <screen x="0" y="23" width="1280" height="728" />
+    <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1601854728648" />
+    <state width="1239" height="168" key="GridCell.Tab.0.left" timestamp="1601854728647">
+      <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1601853055718" />
-    <state width="1239" height="168" key="GridCell.Tab.0.right" timestamp="1601853055719">
-      <screen x="0" y="23" width="1280" height="728" />
+    <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1601854728647" />
+    <state width="1239" height="168" key="GridCell.Tab.0.right" timestamp="1601854728648">
+      <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1601853055719" />
-    <state x="310" y="183" key="Vcs.Push.Dialog.v2" timestamp="1601847346600">
-      <screen x="0" y="23" width="1280" height="728" />
+    <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1601854728648" />
+    <state x="310" y="183" key="Vcs.Push.Dialog.v2" timestamp="1601853329060">
+      <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state x="310" y="183" key="Vcs.Push.Dialog.v2/0.23.1280.728@0.23.1280.728" timestamp="1601847346600" />
+    <state x="310" y="183" key="Vcs.Push.Dialog.v2/0.23.1280.729@0.23.1280.729" timestamp="1601853329060" />
   </component>
 </project>
