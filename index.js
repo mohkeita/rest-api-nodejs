@@ -11,7 +11,7 @@ const app = express();
 app.use(cors());
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost:27017', {
+mongoose.connect('mongodb://localhost:27017/rest-api-nodejs', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
