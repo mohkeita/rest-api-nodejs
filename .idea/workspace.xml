@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa3b9095-4a51-4b68-9252-519ce014b1e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/validations/validationHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validations/validators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/postController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/postController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/post.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601837912221</updated>
       <workItem from="1601837914504" duration="60000" />
-      <workItem from="1601838195469" duration="5043000" />
+      <workItem from="1601838195469" duration="8924000" />
     </task>
     <task id="LOCAL-00001" summary="init project and install dependency">
       <created>1601838658525</created>
@@ -86,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601840901270</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implement validationHandler.js">
+      <created>1601843614718</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601843614718</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,32 +104,33 @@
     <MESSAGE value="init project and install dependency" />
     <MESSAGE value="implement some dependency in index.js, create route and controller folder" />
     <MESSAGE value="integrate error handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="integrate error handling" />
+    <MESSAGE value="implement validationHandler.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement validationHandler.js" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="225" y="23" key="CommitChangelistDialog2" timestamp="1601840901091">
+    <state x="225" y="23" key="CommitChangelistDialog2" timestamp="1601843614512">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state x="225" y="23" key="CommitChangelistDialog2/0.23.1280.728@0.23.1280.728" timestamp="1601840901091" />
-    <state width="1239" height="168" key="GridCell.Tab.0.bottom" timestamp="1601840171811">
+    <state x="225" y="23" key="CommitChangelistDialog2/0.23.1280.728@0.23.1280.728" timestamp="1601843614512" />
+    <state width="1239" height="168" key="GridCell.Tab.0.bottom" timestamp="1601846834687">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1601840171811" />
-    <state width="1239" height="168" key="GridCell.Tab.0.center" timestamp="1601840171811">
+    <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1601846834687" />
+    <state width="1239" height="168" key="GridCell.Tab.0.center" timestamp="1601846834686">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1601840171811" />
-    <state width="1239" height="168" key="GridCell.Tab.0.left" timestamp="1601840171810">
+    <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1601846834686" />
+    <state width="1239" height="168" key="GridCell.Tab.0.left" timestamp="1601846834685">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1601840171810" />
-    <state width="1239" height="168" key="GridCell.Tab.0.right" timestamp="1601840171811">
+    <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1601846834685" />
+    <state width="1239" height="168" key="GridCell.Tab.0.right" timestamp="1601846834686">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1601840171811" />
-    <state x="310" y="183" key="Vcs.Push.Dialog.v2" timestamp="1601840903016">
+    <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1601846834686" />
+    <state x="310" y="183" key="Vcs.Push.Dialog.v2" timestamp="1601843616369">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state x="310" y="183" key="Vcs.Push.Dialog.v2/0.23.1280.728@0.23.1280.728" timestamp="1601840903016" />
+    <state x="310" y="183" key="Vcs.Push.Dialog.v2/0.23.1280.728@0.23.1280.728" timestamp="1601843616369" />
   </component>
 </project>

@@ -1,10 +1,11 @@
 const validationHandler = require('../validations/validationHandler');
 
-exports.index = (req, res) => {
-    res.send({ message: "hi" });
+exports.index = async (req, res) => {
+
 };
 
-exports.store = (req, res, err) => {
+
+exports.store = (req, res, next) => {
     try {
         validationHandler(req);
 
