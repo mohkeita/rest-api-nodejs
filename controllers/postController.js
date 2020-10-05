@@ -47,3 +47,14 @@ exports.update = async (req, res, next) => {
         next(err)
     }
 };
+
+exports.delete = async (req, res, next) => {
+    try {
+
+        let post = await Post.findById(req.params.id);
+        await post.delete();
+        res.send({ message: "success" });
+    } catch (err) {
+        next(err)
+    }
+};

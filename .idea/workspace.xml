@@ -59,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601837912221</updated>
       <workItem from="1601837914504" duration="60000" />
-      <workItem from="1601838195469" duration="15840000" />
+      <workItem from="1601838195469" duration="16780000" />
     </task>
     <task id="LOCAL-00001" summary="init project and install dependency">
       <created>1601838658525</created>
@@ -110,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601855083263</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update post route">
+      <created>1601919976127</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601919976127</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,14 +133,15 @@
     <MESSAGE value="creating the post model" />
     <MESSAGE value="store post and multer" />
     <MESSAGE value="add post index and show routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add post index and show routes" />
+    <MESSAGE value="update post route" />
+    <option name="LAST_COMMIT_MESSAGE" value="update post route" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="298" y="23" key="CommitChangelistDialog2" timestamp="1601855083079">
+    <state x="263" y="23" key="CommitChangelistDialog2" timestamp="1601919975936">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state x="440" y="23" key="CommitChangelistDialog2/0.23.1280.728@0.23.1280.728" timestamp="1601847344488" />
-    <state x="298" y="23" key="CommitChangelistDialog2/0.23.1280.729@0.23.1280.729" timestamp="1601855083079" />
+    <state x="263" y="23" key="CommitChangelistDialog2/0.23.1280.729@0.23.1280.729" timestamp="1601919975936" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom" timestamp="1601911249138">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
@@ -154,10 +162,10 @@
     </state>
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1601853055719" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1601911249137" />
-    <state x="310" y="183" key="Vcs.Push.Dialog.v2" timestamp="1601855085024">
+    <state x="310" y="183" key="Vcs.Push.Dialog.v2" timestamp="1601919978290">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state x="310" y="183" key="Vcs.Push.Dialog.v2/0.23.1280.728@0.23.1280.728" timestamp="1601847346600" />
-    <state x="310" y="183" key="Vcs.Push.Dialog.v2/0.23.1280.729@0.23.1280.729" timestamp="1601855085024" />
+    <state x="310" y="183" key="Vcs.Push.Dialog.v2/0.23.1280.729@0.23.1280.729" timestamp="1601919978290" />
   </component>
 </project>
