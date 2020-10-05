@@ -11,5 +11,6 @@ router.post('/',
     uploadImage('posts').single('image'),
     hasDescription,
     postController.store);
+router.patch("/:id", hasDescription, postController.update);
 
 module.exports = router;
