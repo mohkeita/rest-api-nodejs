@@ -9,6 +9,7 @@ const errorHandler = require("./middlewares/errorHandler");
 
 const postRoutes = require('./routes/post');
 const authRoutes = require('./routes/auth');
+const followRoutes = require('./routes/follow');
 const app = express();
 
 app.use(cors());
@@ -25,6 +26,7 @@ app.use(passportJWT.initialize());
 
 app.use("/api/auth", authRoutes);
 app.use("/api/post", passportJWT.authenticate(), postRoutes);
+app.use("/api/follow", passportJWT.authenticate(), followRoutes);
 
 app.use(errorHandler);
 
