@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa3b9095-4a51-4b68-9252-519ce014b1e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/followController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/follow.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/postController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/postController.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601837912221</updated>
       <workItem from="1601837914504" duration="60000" />
-      <workItem from="1601838195469" duration="44739000" />
+      <workItem from="1601838195469" duration="45619000" />
     </task>
     <task id="LOCAL-00001" summary="init project and install dependency">
       <created>1601838658525</created>
@@ -161,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602009421009</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="implement follow endpoint">
+      <created>1602012319217</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602012319217</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,15 +188,16 @@
     <MESSAGE value="implement login endpoint" />
     <MESSAGE value="implement signup endpoint" />
     <MESSAGE value="implement authentication route" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement authentication route" />
+    <MESSAGE value="implement follow endpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement follow endpoint" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="244" y="23" key="CommitChangelistDialog2" timestamp="1602009420786">
+    <state x="240" y="23" key="CommitChangelistDialog2" timestamp="1602012319013">
       <screen x="0" y="23" width="1280" height="730" />
     </state>
     <state x="440" y="23" key="CommitChangelistDialog2/0.23.1280.728@0.23.1280.728" timestamp="1601847344488" />
     <state x="201" y="23" key="CommitChangelistDialog2/0.23.1280.729@0.23.1280.729" timestamp="1601987353955" />
-    <state x="244" y="23" key="CommitChangelistDialog2/0.23.1280.730@0.23.1280.730" timestamp="1602009420786" />
+    <state x="240" y="23" key="CommitChangelistDialog2/0.23.1280.730@0.23.1280.730" timestamp="1602012319013" />
     <state width="1259" height="168" key="GridCell.Tab.0.bottom" timestamp="1601987093265">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
@@ -213,11 +218,11 @@
     </state>
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1601853055719" />
     <state width="1259" height="168" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1601987093264" />
-    <state x="310" y="183" key="Vcs.Push.Dialog.v2" timestamp="1602009423687">
+    <state x="310" y="183" key="Vcs.Push.Dialog.v2" timestamp="1602012320991">
       <screen x="0" y="23" width="1280" height="730" />
     </state>
     <state x="310" y="183" key="Vcs.Push.Dialog.v2/0.23.1280.728@0.23.1280.728" timestamp="1601847346600" />
     <state x="310" y="183" key="Vcs.Push.Dialog.v2/0.23.1280.729@0.23.1280.729" timestamp="1601987355671" />
-    <state x="310" y="183" key="Vcs.Push.Dialog.v2/0.23.1280.730@0.23.1280.730" timestamp="1602009423687" />
+    <state x="310" y="183" key="Vcs.Push.Dialog.v2/0.23.1280.730@0.23.1280.730" timestamp="1602012320991" />
   </component>
 </project>
