@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa3b9095-4a51-4b68-9252-519ce014b1e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/authController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validations/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/validations/validators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/authController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/authController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601837912221</updated>
       <workItem from="1601837914504" duration="60000" />
-      <workItem from="1601838195469" duration="29468000" />
+      <workItem from="1601838195469" duration="37403000" />
     </task>
     <task id="LOCAL-00001" summary="init project and install dependency">
       <created>1601838658525</created>
@@ -141,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601930322208</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="implement login endpoint">
+      <created>1601938888296</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1601938888296</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,38 +167,39 @@
     <MESSAGE value="delete post route" />
     <MESSAGE value="implement user model, hashing and compare password" />
     <MESSAGE value="implement passport for authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement passport for authentication" />
+    <MESSAGE value="implement login endpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement login endpoint" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="221" y="23" key="CommitChangelistDialog2" timestamp="1601930322014">
+    <state x="175" y="23" key="CommitChangelistDialog2" timestamp="1601938888103">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state x="440" y="23" key="CommitChangelistDialog2/0.23.1280.728@0.23.1280.728" timestamp="1601847344488" />
-    <state x="221" y="23" key="CommitChangelistDialog2/0.23.1280.729@0.23.1280.729" timestamp="1601930322014" />
-    <state width="1239" height="168" key="GridCell.Tab.0.bottom" timestamp="1601930275259">
+    <state x="175" y="23" key="CommitChangelistDialog2/0.23.1280.729@0.23.1280.729" timestamp="1601938888103" />
+    <state width="1259" height="168" key="GridCell.Tab.0.bottom" timestamp="1601987093265">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1601853055720" />
-    <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1601930275259" />
-    <state width="1239" height="168" key="GridCell.Tab.0.center" timestamp="1601930275258">
+    <state width="1259" height="168" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1601987093265" />
+    <state width="1259" height="168" key="GridCell.Tab.0.center" timestamp="1601987093264">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1601853055719" />
-    <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1601930275258" />
-    <state width="1239" height="168" key="GridCell.Tab.0.left" timestamp="1601930275257">
+    <state width="1259" height="168" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1601987093264" />
+    <state width="1259" height="168" key="GridCell.Tab.0.left" timestamp="1601987093263">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1601853055718" />
-    <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1601930275257" />
-    <state width="1239" height="168" key="GridCell.Tab.0.right" timestamp="1601930275258">
+    <state width="1259" height="168" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1601987093263" />
+    <state width="1259" height="168" key="GridCell.Tab.0.right" timestamp="1601987093264">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1601853055719" />
-    <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1601930275258" />
-    <state x="310" y="183" key="Vcs.Push.Dialog.v2" timestamp="1601930324259">
+    <state width="1259" height="168" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1601987093264" />
+    <state x="310" y="183" key="Vcs.Push.Dialog.v2" timestamp="1601938890786">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state x="310" y="183" key="Vcs.Push.Dialog.v2/0.23.1280.728@0.23.1280.728" timestamp="1601847346600" />
-    <state x="310" y="183" key="Vcs.Push.Dialog.v2/0.23.1280.729@0.23.1280.729" timestamp="1601930324259" />
+    <state x="310" y="183" key="Vcs.Push.Dialog.v2/0.23.1280.729@0.23.1280.729" timestamp="1601938890786" />
   </component>
 </project>
